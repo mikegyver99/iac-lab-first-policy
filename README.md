@@ -113,7 +113,7 @@ policy "enforce tags" {
 
 To change the required tags, edit `enforce-mandatory-tags.sentinel`:
 
-```hcl
+```sentinel
 ### List of mandatory tags ###
 mandatory_tags = [
   "Name",
